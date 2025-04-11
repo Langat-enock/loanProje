@@ -1,0 +1,39 @@
+{% extends 'home.html' %}
+
+{% block title %}
+    <title>loan application</title>
+{% endblock %}
+
+{% block content %}
+	
+
+<div class="container">
+        <h4>Loan application</h4>
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>Applicant NameS</th>
+                <th>National ID</th>
+                <th>Loan Amount</th>
+                <th>Email</th>
+                <th>application date</th>
+                <th>Details</th>
+{#                <th>apply</th>#}
+                <a class="btn btn-danger" href="#">apply</a>
+            </tr>
+            {% for LoanApplication in form %}
+            	 <td>{{ customer.id }}</td>
+                    <td>{{ LoanApplication.user_names }}</td>
+                    <td>{{  LoanApplication.email }}</td>
+                    <td>{{  LoanApplication.amount}}</td>
+                    <td>{{  LoanApplication.status}}</td>
+                    <td>{{  LoanApplication.created_at | date:"d-m-Y" }}</td>
+{#              </tr>#}
+        {% empty %}
+        <tr>
+            <td colspan="6">No applications yet.</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
