@@ -26,7 +26,8 @@ from main_app.views import approve_loan, apply_loan
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('apply-loan/', apply_loan, name='apply_loan'),
+    path('add/apply-loan', views.add_apply_loan, name='add_apply_loan'),
+    path('apply-loan/<int:loan_id>', apply_loan, name='apply_loan'),
     path('', views.loan, name='loan'),
     path('approve-loan/<int:loan_id>/', approve_loan, name='approve-loan'),
     path('admin/', admin.site.urls)

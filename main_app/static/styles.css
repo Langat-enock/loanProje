@@ -1,44 +1,97 @@
+ /*body {*/
+ /*     font-family: Arial, sans-serif;*/
+ /*     background: #f2f2f2;*/
+ /*     display: flex;*/
+ /*     justify-content: center;*/
+ /*     align-items: center;*/
+ /*     height: 100vh;*/
+ /*   }*/
+ /*   .loan-form {*/
+ /*     background: #fff;*/
+ /*     padding: 25px;*/
+ /*     border-radius: 10px;*/
+ /*     box-shadow: 0 0 15px rgba(0,0,0,0.1);*/
+ /*     width: 300px;*/
+ /*   }*/
+ /*   .loan-form h2 {*/
+ /*     text-align: center;*/
+ /*     margin-bottom: 20px;*/
+ /*   }*/
+ /*   .loan-fo: block;*/
+ /*     margin: 10px 0 5px;*/
+ /*   }*/
+ /*   .loan-form input[type="text"],*/
+ /*   .loan-form input[type="email"],*/
+ /*   .loan-form input[type="number"] {*/
+ /*     width: 100%;*/
+ /*     padding: 8px;*/
+ /*     margin-bottom: 10px;*/
+ /*     border: 1px solid #ccc;*/
+ /*     border-radius: 6px;*/
+ /*   }*/
+ /*   .loan-form button {*/
+ /*     width: 100%;*/
+ /*     padding: 10px;*/
+ /*     background-color: #007bff;*/
+ /*     color: white;*/
+ /*     border: none;*/
+ /*     border-radius: 6px;*/
+ /*     cursor: pointer;*/
+ /*     font-size: 16px;*/
+ /*   }*/
+ /*   .loan-form button:hover {*/
+ /*     background-color: #0056b3;*/
+ /*   }*/
+
+
  body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .loan-form {
-      background: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      width: 300px;
-    }
-    .loan-form h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    /*}*/
-    /*.loan-fo: block;*/
-    /*  margin: 10px 0 5px;*/
-    /*}*/
-    .loan-form input[type="text"],
-    .loan-form input[type="email"],
-    .loan-form input[type="number"] {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    .loan-form button {
-      width: 100%;
-      padding: 10px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .loan-form button:hover {
-      background-color: #0056b3;
-    }
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loan-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.loan-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loan-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.loan-form input[type="text"],
+.loan-form input[type="email"],
+.loan-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.loan-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loan-form button:hover {
+  background-color: #0056b3;
+}
